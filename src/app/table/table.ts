@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component, input, Input, ViewChild } from '@angular/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -19,7 +18,6 @@ export interface ColumnConfig {
   styleUrls: ['./table.css'],
   imports: [
     MatTableModule,
-    CommonModule,
     MatPaginatorModule,
     MatInputModule,
     MatFormFieldModule,
